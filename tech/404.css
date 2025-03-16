@@ -1,0 +1,68 @@
+body {
+  background: linear-gradient(#353535,#1f1f1f);
+}
+.magixa_p_404 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  min-height: 100vh;
+  background-size: contain; 
+  background-image: url(/tech/magixa_img/404err.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  z-index: 7;
+  filter: drop-shadow(0 0 0.75rem #002967);
+}
+@media (min-height: 800px) {
+  .magixa_p_404 {
+   background-size: auto;
+  }
+}
+h1 {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  text-shadow: 0px 3px 3px black;
+}
+p {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: whitesmoke;
+  text-shadow: 1px 1px 2px black;
+}
+a:link,
+a:visited {
+  color: rgb(0, 225, 255);
+}
+.ks_wrld_logo {
+  font-size: 64px;
+  font-family: "28_days_later_cyrregular";
+  color: #00ddfa;
+  text-shadow: -5px -5px 0 #003483, 5px -5px 0 #003483, -5px 5px 0 #003483,
+    5px 5px 0 #003483, 0px 0px 20px #002967, 0px 0px 15px #002967,
+    0px 0px 10px #002967, 0px 0px 5px #002967;
+  margin: 0;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.windows {
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+}
+.center_window {
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.25),
+    rgba(255, 255, 255, 0.5)
+  );
+  border-radius: 7px;
+  box-shadow: 0px 3px 10px rgb(0 0 0 / 75%), inset 0px 0px 5px rgb(101 101 101);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  width: 550px;
+}
+.ins_wind {
+  margin: 10px;
+}
